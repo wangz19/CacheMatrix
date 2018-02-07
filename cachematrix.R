@@ -19,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## This function help to check if the inverse number is already exist
+## if not calculated the inverse and cache the matrix and its inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
